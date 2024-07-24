@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:horizontalGap="0.8%p"
+    app:keyWidth="10%p"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    app:keyHeight="8.6%p"
+    app:verticalGap="1%p">
+    <Row  app:keyHeight="5%p">
+
+        <Key
+            app:codes="27"
+            app:keyWidth="10.32%p"
+            app:keyEdgeFlags="left"
+            app:keyLabel="Esc" />
+        <Key
+            app:codes="112"
+            app:keyWidth="6.55%p"
+            app:keyLabel="F1" />
+        <Key
+            app:codes="113"
+            app:keyWidth="6.55%p"
+            app:keyLabel="F2" />
+        <Key
+            app:codes="114"
+            app:keyWidth="6.55%p"
+            app:keyLabel="F3" />
+        <Key
+            app:codes="115"
+            app:keyWidth="6.55%p"
+            app:keyLabel="F4" />
+        <Key
+            app:codes="116"
+            app:keyWidth="6.55%p"
+            app:keyLabel="F5" />
+        <Key
+            app:codes="117"
+            app:keyWidth="6.55%p"
+            app:keyLabel="F6" />
+        <Key
+            app:codes="118"
+            app:keyWidth="6.55%p"
+            app:keyLabel="F7" />
+        <Key
+            app:codes="119"
+            app:keyWidth="6.55%p"
+            app:keyLabel="F8" />
+        <Key
+            app:codes="120"
+            app:keyWidth="6.55%p"
+            app:keyLabel="F9" />
+        <Key
+            app:codes="121"
+            app:keyWidth="6.55%p"
+            app:keyLabel="F10" />
+        <Key
+            app:codes="122"
+            app:keyWidth="6.55%p"
+            app:keyLabel="F11" />
+        <Key
+            app:codes="123"
+            app:keyWidth="6.65%p"
+            app:keyEdgeFlags="right"
+            app:keyLabel="F12" />
+<!--        <Key
+            app:codes="76"
+            app:keyWidth="8%p"
+            app:keyEdgeFlags="right"
+            app:isRepeatable="true"
+            app:keyLabel="del" />-->
+    </Row>
+    <Row>
+        <Key
+            app:codes="192"
+            app:keyWidth="4.44%p"
+            app:keyEdgeFlags="left"
+            app:keySmallLabel="~"
+            app:keyLabel="`" />
+        <Key
+            app:codes="49"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel="!"
+            app:keyLabel="1" />
+        <Key
+            app:codes="50"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel="\@"
+            app:keyLabel="2" />
+        <Key
+            app:codes="51"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel="#"
+            app:keyLabel="3" />
+        <Key
+            app:codes="52"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel="¥"
+            app:keyLabel="4" />
+        <Key
+            app:codes="53"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel="%"
+            app:keyLabel="5" />
+        <Key
+            app:codes="54"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel="^"
+            app:keyLabel="6" />
+        <Key
+            app:codes="55"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel="&amp;"
+            app:keyLabel="7" />
+        <Key
+            app:codes="56"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel="*"
+            app:keyLabel="8" />
+        <Key
+            app:codes="57"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel="("
+            app:keyLabel="9" />
+        <Key
+            app:codes="48"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel=")"
+            app:keyLabel="0" />
+        <Key
+            app:codes="189"
+            app:keyWidth="4.44%p"
+            app:keySmallLabel="—"
+            app:keyLabel="-" />
+        <Key
+            app:codes="187"
+            app:keyWidth="4.44%p"
+            app:keySmallLabel="+"
+            app:keyLabel="=" />
+        <Key
+            app:codes="8"
+            app:keyWidth="9.36%p"
+            app:keyEdgeFlags="right"
+            app:isRepeatable="true"
+            app:keyLabel="Back" />
+    </Row>
+    <Row>
+        <Key
+            app:codes="9"
+            app:keyWidth="7.66%p"
+            app:keyEdgeFlags="left"
+            app:keyLabel="Tab" />
+        <Key
+            app:codes="81"
+            app:keyWidth="6%p"
+            app:keyLabel="Q" />
+        <Key
+            app:codes="87"
+            app:keyWidth="6.55%p"
+            app:keyLabel="W" />
+        <Key
+            app:codes="69"
+            app:keyWidth="6.55%p"
+            app:keyLabel="E" />
+        <Key
+            app:codes="82"
+            app:keyWidth="6.55%p"
+            app:keyLabel="R" />
+        <Key
+            app:codes="84"
+            app:keyWidth="6.55%p"
+            app:keyLabel="T" />
+        <Key
+            app:codes="89"
+            app:keyWidth="6.55%p"
+            app:keyLabel="Y" />
+        <Key
+            app:codes="85"
+            app:keyWidth="6.55%p"
+            app:keyLabel="U" />
+        <Key
+            app:codes="73"
+            app:keyWidth="6.55%p"
+            app:keyLabel="I" />
+        <Key
+            app:codes="79"
+            app:keyWidth="6.55%p"
+            app:keyLabel="O" />
+        <Key
+            app:codes="80"
+            app:keyWidth="6.55%p"
+            app:keyLabel="P" />
+        <Key
+            app:codes="219"
+            app:keyWidth="4.46%p"
+            app:keySmallLabel="{"
+            app:keyLabel="[" />
+        <Key
+            app:codes="221"
+            app:keyWidth="4.46%p"
+            app:keySmallLabel="}"
+            app:keyLabel="]" />
+        <Key
+            app:codes="220"
+            app:keyWidth="6.55%p"
+            app:keyEdgeFlags="right"
+            app:keySmallLabel="|"
+            app:keyLabel="\\" />
+
+    </Row>
+
+    <Row>
+        <Key
+            app:codes="20"
+            app:keyWidth="9.91%p"
+            app:keyEdgeFlags="left"
+            app:isShifted="true"
+            app:keyLabel="Caps" />
+        <Key
+            app:codes="65"
+            app:keyWidth="6.55%p"
+            app:keyLabel="A" />
+        <Key
+            app:codes="83"
+            app:keyWidth="6.55%p"
+            app:keyLabel="S" />
+        <Key
+            app:codes="68"
+            app:keyWidth="6.55%p"
+            app:keyLabel="D" />
+        <Key
+            app:codes="70"
+            app:keyWidth="6.55%p"
+            app:keyLabel="F" />
+        <Key
+            app:codes="71"
+            app:keyWidth="6.55%p"
+            app:keyLabel="G" />
+        <Key
+            app:codes="72"
+            app:keyWidth="6.55%p"
+            app:keyLabel="H" />
+        <Key
+            app:codes="74"
+            app:keyWidth="6.55%p"
+            app:keyLabel="J" />
+        <Key
+            app:codes="75"
+            app:keyWidth="6.55%p"
+            app:keyLabel="K" />
+        <Key
+            app:codes="76"
+            app:keyWidth="6.55%p"
+            app:keyLabel="L" />
+        <Key
+            app:codes="186"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel=':'
+            app:keyLabel=";" />
+        <Key
+            app:codes="222"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel='"'
+            app:keyLabel="'" />
+        <Key
+            app:codes="13"
+            app:keyWidth="7%p"
+            app:keyLabel="Enter"
+            app:isRepeatable="true"
+            app:keyEdgeFlags="right"/>
+
+    </Row>
+
+    <Row>
+        <Key
+            app:codes="160"
+            app:keyWidth="12.65%p"
+            app:keyEdgeFlags="left"
+            app:isModifier="true"
+            app:keyLabel="Shift" />
+        <Key
+            app:codes="90"
+            app:keyWidth="6.55%p"
+            app:keyLabel="Z" />
+        <Key
+            app:codes="88"
+            app:keyWidth="6.55%p"
+            app:keyLabel="X" />
+        <Key
+            app:codes="67"
+            app:keyWidth="6.55%p"
+            app:keyLabel="C" />
+        <Key
+            app:codes="86"
+            app:keyWidth="6.55%p"
+            app:keyLabel="V" />
+        <Key
+            app:codes="66"
+            app:keyWidth="6.55%p"
+            app:keyLabel="B" />
+        <Key
+            app:codes="78"
+            app:keyWidth="6.55%p"
+            app:keyLabel="N" />
+        <Key
+            app:codes="77"
+            app:keyWidth="6.55%p"
+            app:keyLabel="M" />
+        <Key
+            app:codes="188"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel="&lt;"
+            app:keyLabel="," />
+        <Key
+            app:codes="190"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel="&gt;"
+            app:keyLabel="." />
+        <Key
+            app:codes="191"
+            app:keyWidth="6.55%p"
+            app:keySmallLabel='？'
+            app:keyLabel="/" />
+        <Key
+            app:codes="161"
+            app:keyLabel="Shift"
+            app:keyEdgeFlags="right"
+            app:keyWidth="11.68%p" />
+    </Row>
+    <Row>
+        <Key
+            app:codes="17"
+            app:keyWidth="6.55%p"
+            app:keyEdgeFlags="left"
+            app:isModifier="true"
+            app:keyLabel="Ctrl" />
+        <Key
+            app:codes="-1006"
+            app:keyWidth="6.55%p"
+            app:isModifier="true"
+            app:keyLabel="Fn" />
+        <Key
+            app:codes="91"
+            app:keyWidth="6.55%p"
+            app:isModifier="true"
+            app:keyIcon="@drawable/icon_win_svg" />
+        <Key
+            app:codes="18"
+            app:keyWidth="6.55%p"
+            app:isModifier="true"
+            app:keyLabel="Alt" />
+        <Key
+            app:codes="32"
+            app:keyWidth="32.66%p"
+            app:keyLabel=""
+            app:isRepeatable="true"/>
+        <Key
+            app:codes="18"
+            app:keyWidth="6.55%p"
+            app:isModifier="true"
+            app:keyLabel="Alt" />
+        <Key
+            app:codes="17"
+            app:keyWidth="6.55%p"
+            app:isModifier="true"
+            app:keyLabel="Ctrl" />
+
+        <Key
+            app:codes="37"
+            app:keyWidth="3%p"
+            app:keyIcon="@drawable/icon_key_left"
+            app:isModifier="true"/>
+            <!--app:keyLabel="◀︎️"-->
+        <Key
+            app:codes="38"
+            app:keyVerticalFlags="top"
+            app:keyWidth="6.55%p"
+            app:keyHeight="4%p"
+            app:keyIcon="@drawable/icon_key_up"
+            app:isModifier="true"
+            />
+       <!-- app:keyLabel="▲"-->
+        <Key
+            app:codes="40"
+            app:keyWidth="6.55%p"
+            app:keyVerticalFlags="bottom"
+            app:isModifier="true"
+            app:keyIcon="@drawable/icon_key_down"
+            app:keyHeight="4%p"
+             />
+<!--        app:keyLabel="▼"-->
+        <Key
+            app:codes="39"
+            app:keyWidth="3%p"
+            app:isModifier="true"
+            app:keyIcon="@drawable/icon_key_right"
+             />
+<!--        app:keyLabel="▶︎︎"-->
+
+        <Key
+            app:codes="-999"
+            app:keyWidth="6%p"
+            app:isModifier="true"
+            app:keyIcon="@drawable/icon_close_svg"
+            app:keyEdgeFlags="right"
+             />
+    </Row>
+</Keyboard>

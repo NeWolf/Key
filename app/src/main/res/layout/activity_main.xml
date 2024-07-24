@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/layout_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="400dip"></View>
+        <com.newolf.key.KeyBoardEditText
+            android:id="@+id/ed_main"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@android:color/holo_orange_dark"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="#999999"
+        android:visibility="visible">
+        <include layout="@layout/content_keyboard"></include>
+    </LinearLayout>
+
+
+    <com.newolf.widgets.DragLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:id="@+id/drag_root"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:src="@drawable/ic_girl"
+            app:is_can_drag="false"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+        <EditText
+            android:id="@+id/edit_query1"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:text="Hello World!"
+            android:textColor="#000"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        <com.custom.keyboard.KeyboardView
+            android:id="@+id/keyboardview"
+            android:layout_width="0dp"
+
+            android:background="@drawable/keyboard_bj"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            app:keyPreviewLayout="@layout/view_keyboard_preview"
+            app:keyBackground="@drawable/selector_keyboard_key"
+            app:keyTextColor="@android:color/white"
+            app:keyTextSize="14sp"
+            app:labelTextSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:shadowColor="@android:color/transparent" />
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:progress="76"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="80dp"
+            android:id="@+id/seek_bar"
+            android:max="255"
+            android:thumb="@drawable/seek_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/edit_query"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:text="Hello World!"
+            android:textColor="#F00"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/btn_show"
+            android:text="Show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </com.newolf.widgets.DragLayout>
+</RelativeLayout>
